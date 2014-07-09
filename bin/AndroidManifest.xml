@@ -49,6 +49,10 @@
             android:name="com.imcore.xbionic.ui.NewuserRegister"
             android:theme="@style/Theme.AppCompat" >
         </activity>
+         <activity
+            android:name="com.imcore.xbionic.ui.TelephoneRegister"
+            android:theme="@style/Theme.AppCompat" >
+        </activity>
     </application>
 
 </manifest>

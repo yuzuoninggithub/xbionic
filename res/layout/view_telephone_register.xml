@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_back" >
+
+        <ImageButton
+            android:id="@+id/ibtn_back_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_color_change" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="设置账户"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/ed_telephone_number"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/telphone_text"
+            android:hint="手机号码（必填）" />
+
+        <EditText
+            android:id="@+id/ed_password_login"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/ed_telephone_number"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/telphone_text"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:password="true"
+            android:hint="登入密码（必填）" />
+
+        <EditText
+            android:id="@+id/ed_user_email"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/ed_password_login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/telphone_text"
+            android:hint="用户邮箱（必填）" />
+
+        <Button
+            android:id="@+id/btn_creat_user"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed_user_email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/imageview_change_color"
+            android:text="创建账户"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</LinearLayout>
