@@ -10,7 +10,7 @@ public class SinaLogin extends ActionBarActivity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.sina_level_login);
-		
+		getSupportActionBar().hide();
 	}
 
 }

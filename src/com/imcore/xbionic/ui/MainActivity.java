@@ -27,12 +27,18 @@ public class MainActivity extends Activity {
 		
 	}
 	
-	private void loginView() {
-//		Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-//		startActivity(intent);
+	@Override
+	public void onWindowFocusChanged(boolean hasFocus) {
+		// TODO Auto-generated method stub
+		super.onWindowFocusChanged(hasFocus);
 		
-		Intent intent = new Intent(MainActivity.this, WelcomeFirst.class);
+		
+	}
+	private void loginView() {
+		Intent intent = new Intent(MainActivity.this, LoginActivity.class);
 		startActivity(intent);
+		
+		
 		
 	}
 

@@ -11,5 +11,6 @@ public class NewuserRegister extends ActionBarActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.new_level_register);
+		getSupportActionBar().hide();
 	}
 }
