@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/iv_top_login_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:id="@+id/iv_login_tencent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_top_login_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/imageview_change_color"
+            android:text="腾讯账号登入"
+            android:textColor="#FBFBFC" />
+
+        <Button
+            android:id="@+id/iv_login_sina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_login_tencent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/imageview_change_color"
+            android:text="新浪微博登入"
+            android:textColor="#FBFBFC" />
+
+        <Button
+            android:id="@+id/iv_login_bulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_login_sina"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/imageview_change_color"
+            android:text="部落用户登入"
+            android:textColor="#FBFBFC" />
+
+        <Button
+            android:id="@+id/iv_login_newuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_login_bulo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/imageview_change_color"
+            android:text="新用户注册"
+            android:textColor="#FBFBFC" />
+
+        <ImageView
+            android:id="@+id/iv_help1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_login_newuser"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/help_1" />
+
+        <ImageView
+            android:id="@+id/iv_server1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/iv_login_newuser"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/serve_1" />
+    </RelativeLayout>
+
+</LinearLayout>
