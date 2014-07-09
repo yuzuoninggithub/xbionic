@@ -22,7 +22,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:text="登入"
-            android:textColor="#ffffff"
+            android:textColor="@color/fontcolor"
             android:textSize="34sp" />
     </RelativeLayout>
 
