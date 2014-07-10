@@ -67,7 +67,7 @@
 
     <Button
         android:id="@+id/iv_bulo_login"
-        android:layout_width="220dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/et_password_login"
         android:layout_centerHorizontal="true"

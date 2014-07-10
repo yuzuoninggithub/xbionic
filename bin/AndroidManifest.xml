@@ -53,6 +53,14 @@
             android:name="com.imcore.xbionic.ui.TelephoneRegister"
             android:theme="@style/Theme.AppCompat" >
         </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.BuloPingfang"
+            android:theme="@style/Theme.AppCompat" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.BuyShow"
+            android:theme="@style/Theme.AppCompat" >
+        </activity>
     </application>
 
 </manifest>
