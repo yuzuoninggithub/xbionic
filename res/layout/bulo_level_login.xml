@@ -63,6 +63,7 @@
         android:background="@drawable/enterbound"
         android:drawableStart="@drawable/keypicture"
         android:gravity="center"
+        android:password="true"
         android:hint="密码" />
 
     <Button
