@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_back" >
+
+        <ImageButton
+            android:id="@+id/ibtn_back_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_color_change" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="注册"
+            android:textColor="@color/fontcolor"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/ed_telephone_verification"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/telphone_text"
+            android:gravity="center"
+            android:hint="输入手机验证码（必填）" />
+
+        <EditText
+            android:id="@+id/ed_login_password"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/ed_telephone_verification"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/telphone_text"
+            android:gravity="center"
+            android:hint="输入登入密码（必填）" />
+
+        <EditText
+            android:id="@+id/ed_daren_verification"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/ed_login_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/telphone_text"
+            android:gravity="center"
+            android:hint="输入达人验证码（必填）" />
+
+        <CheckBox
+            android:id="@+id/cb_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed_daren_verification"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:checked="true"
+            android:text="同意用户服务协议"
+            android:textColor="@color/fontcolor" />
+
+        <CheckBox
+            android:id="@+id/cb_agree_daren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_agree"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:text="申请成为部落达人"
+            android:textColor="@color/fontcolor" />
+
+        <Button
+            android:id="@+id/btn_tele_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_agree_daren"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/imageview_change_color"
+            android:text="注册"
+            android:textColor="@color/fontcolor" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_host" >
+
+        <Button
+            android:id="@+id/btn_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listbutton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/fontcolor"
+            android:textSize="24sp"
+            android:text="部落平方" />
+
+        <Button
+            android:id="@+id/btn_seek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/seek" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/beijing" >
+
+        <Button
+            android:id="@+id/btn_buy"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/xactivtypage3"
+            android:text="产品购买"
+            android:textColor="@color/fontcolor" />
+
+        <Button
+            android:id="@+id/btn_story"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@id/btn_buy"
+            android:background="@drawable/xactivtypage4"
+            android:text="达人故事"
+            android:textColor="@color/fontcolor" />
+
+        <Button
+            android:id="@+id/btn_activity"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/btn_buy"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/xactivtypage"
+            android:text="X 的活动"
+            android:textColor="@color/fontcolor" />
+
+        <Button
+            android:id="@+id/btn_introduce"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/btn_story"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/btn_buy"
+            android:background="@drawable/xactivtypage2"
+            android:text="X 的介绍"
+            android:textColor="@color/fontcolor" />
+    </RelativeLayout>
+
+</LinearLayout>
